@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  width: 50vw;
+  display: block;
+  margin: auto;
+  padding: 20px;
+}
+header{
+  margin-bottom: 10px;
+}
+span{
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: black;
+  padding-left: 40px;
+  border: #F14F7B 1.5px solid;
+  position: absolute;
+  left: 32%;
+  height: 45px;
+}
+span i{
+  position: absolute;
+  left:3%;
+  top:15%;
+}
+#myInput{
+  width: 35vw;
+  padding-left: 10px;
+  border: none;
+}
+#myInput:focus{
+  outline: none;
+}
+i{
+  position: absolute;
+  left: 27%;
+  top: 3%;
+  color: #8e8e8e;
+  cursor: pointer;
+}
+button{
+  padding: 10px;
+  width: 40%;
+  border-radius: 35px;
+}
+button:first-of-type{
+  background-color: white;
+  color: #8e8e8e;
+  border: 1px solid #b6b5b5;
+}
+button:not(:first-of-type){
+  color: white;
+  background: #F14F7B;
+  border: none;
+}
+fieldset{
+  border: none;
+  padding-left: 50px;
+}
+#open{
+  margin: 10px 0;
+}
+fieldset input:checked{
+  accent-color: #F14F7B;
+}
+h1{
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 15px 0;
+  font-weight: 600;
+}
+fieldset label{
+  color: #8e8e8e;
+  letter-spacing: .5px;
+}
+fieldset div{
+  margin-bottom: 8px;
+}
+.btn{
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+@media (max-width:700px) {
+  body{
+      width: 100vw;
+      margin: 0;
+  }
+  i{
+    font-size: 24px;
+      left: 2%;
+      top: 3.2%;
+  }
+  .btn{
+      margin-left: 10vw;
+  }
+  fieldset{
+    margin-left: 0px;
+  }
+  #myInput{
+    width: 70vw;
+  }
+  span{
+    left: 12%;
+  }
+}

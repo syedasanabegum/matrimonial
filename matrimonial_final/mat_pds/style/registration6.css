@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: poppins;
+    
+}
+.main{
+    position: absolute;
+    bottom: 0;
+    margin-left: 25% !important;
+}
+.text1{
+    font-size: 0.8rem;
+    
+}
+.text2{
+    color: #8E8E8E;
+    font-size: 1rem;
+    text-align: right;
+}
+.form-label{
+    color:#F14F78;
+    font-size: 1.2rem;
+}
+.form-control{
+    padding: 15px !important;
+    margin: 5px 0px;
+}
+.text3{
+    color: #8E8E8E;
+    font-size: 0.9rem;
+}
+.buton{
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    border-collapse: separate;
+    margin-top:25px ;
+    margin-bottom: 30px;
+}
+button{
+    font-size: 1.5rem;
+    border-radius: 25px !important;
+    color: #fff;
+    background-color: #F14F78;
+    width: 65%;
+    text-align: center;
+    border: #F14F78;
+    padding: 10px;
+  
+}
+.user{
+    text-align: center;
+}
+.fa-user{
+    background-color: #F14F78;
+    color: #fff;
+    border-radius: 50%;
+    height: 15vh;
+    width: 35%;
+    align-items: center;
+    font-size: 5rem;
+    padding-top: 20px;
+    margin: 20px 20px 10px 20px;
+}
+.pink{
+    color:#F14F78;
+    font-size: 1.8rem;
+}
+.grey{
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #8E8E8E;
+}
+.fa-image{
+    color: #fff !important;
+    font-size: 20px;
+    padding-right:5px !important ;
+}
+.camera{
+    color:#F14F78;
+    font-size: 1.3rem;
+    font-weight: 600;
+    align-items: center;
+}
+.fa-camera{
+ width: 35px !important;
+ margin: 10px;
+}
+.fa-arrow-left-long{
+    color: #8E8E8E !important;
+    border: none !important;
+}
+
+

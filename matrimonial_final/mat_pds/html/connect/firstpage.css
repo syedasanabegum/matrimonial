@@ -1,0 +1,70 @@
+/*body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}*/
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-item{
+    border:solid #F14F7B 2px;
+    height:35px;
+    border-radius: 8px;
+   
+}
+.nav-link{
+    font-size: medium;
+    border-radius: 20px;
+}
+.connect{
+    background-color: #F14F7B;
+    height:30px;      
+}
+.fa{
+    color:#F14F7B;
+}
+img{
+    border-radius: 20px;
+    
+}
+.desc{
+    
+    align-items: center;
+    height:25px;
+    width:100px;
+    padding-top:1px;
+    background-color: grey;
+}
+.carousel-item img{
+    width:30vw;
+     height:60vh;
+}
+
+
+
+@media (max-width:500px) and (min-width:100px){
+    .age{
+        font-size:15px;
+    }
+    .profession{
+        font-size:15px;
+    }
+    .carousel-caption{
+        left:1%;
+        right:0%;
+    }
+    
+}
+@media only screen and (device-width: 768px) {
+    /* For general iPad layouts */
+    .carousel{
+        height:50vh;
+    }
+    .carousel-item img{
+        height:20vh;
+    }
+
+  }

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: poppins;
+    
+}
+.main{
+    position: absolute;
+    bottom: 0;
+}
+.logo{
+    color:#F14F78;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.col  i{
+    border: 1px solid #F14F78;
+    padding: 5px 6px;
+    color: #F14F78;
+    border-radius: 15px;
+    width: 25px;
+    margin: 0px 1px;
+}
+#navbar{
+    display: flex;
+    align-items: center;    
+}
+#navbar li{
+    list-style: none;
+    padding: 0 5px;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+    transition: 0.3s ease;
+}
+#navbar li a i:hover,#navbar li a .active{
+    background-color: #F14F78;
+    color: #fff;
+}
+#navbar li a .active::after,#navbar li a i:hover::after{
+    content: "";
+    color: #fff;
+    background-color: #F14F78;
+   
+}
+
+.text1{
+    font-size: 0.8rem;
+    
+}
+.text2{
+    color: #8E8E8E;
+    font-size: 0.8rem;
+    text-align: right;
+}
+.form-label{
+    color:#F14F78;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+.form-control{
+    padding: 15px !important;
+    margin: 5px 0px;
+    
+}
+.text3{
+    color: #8E8E8E;
+    font-size: 1rem;
+}
+.buton{
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    border-collapse: separate;
+}
+button{
+    font-size: 1.1rem;
+    border-radius: 20px !important;
+    color: #fff;
+    background-color: #F14F78;
+    width: 60%;
+    text-align: center;
+    border: #F14F78;
+    padding: 10px;
+  
+}
+.active{
+    background-color: #F14F78;
+    color: #fff !important;
+}

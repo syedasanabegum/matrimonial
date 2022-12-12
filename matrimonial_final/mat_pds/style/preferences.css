@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Estonia&family=Poppins:wght@200;400&family=Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", "Snans-serif";
+  }
+
+  body{
+    text-align: center;
+    width: 50vw;
+    display: block;
+    margin: auto;
+    padding: 20px;
+  }
+  a{
+    text-decoration: none;
+  }
+  h1{
+    color: #F14F7B;
+    font-size: 32px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin: 0;
+    padding: 10px;
+  }
+  p{
+    margin: 0;
+  }
+  p:first-of-type{
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 24px;
+  }
+  p:not(first-of-type){
+    color: #8e8e8e;
+  }
+  .title{
+    color: #F14F7B;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 0;
+  }
+  .icon{
+    width: 40px;
+    height:40px;
+    color: white;
+    background: #F14F7B;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0;
+  }
+  .field{
+    display: flex;
+    padding-bottom: 12px;
+  }
+  .field > div:last-of-type{
+    position: absolute;
+    right:30%;
+  }
+  .field > div:last-of-type:hover{
+    cursor: pointer;
+  }
+  section{
+    padding: 10px;
+    color: #8e8e8e;
+  }
+  .field .name{
+    padding-left: 30px;
+  }
+  .field .name div:not(:first-of-type){
+    color: black;
+  }
+  button{
+    color: white;
+    background: #F14F7B;
+    border: none;
+    border-radius: 35px;
+    padding: 10px;
+    letter-spacing: .7px;
+    width: 30vw;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    font-size: 18px;
+  }
+  .last:first-of-type{
+    color: #F14F7B;
+    transform: translateX(-28%);
+  }
+  .first{
+    transform: translateX(-14%);
+  }
+  .last{
+    transform: translateX(-10%);
+  }
+
+  @media (max-width:700px){
+    body{
+        width: 100vw;
+    }
+    p:first-of-type{
+        font-size: 20px;
+        font-weight: 600;
+        padding: 0;
+        margin: 0;
+    }
+    .field > div:last-of-type{
+        right: 10%;
+    }
+    section{
+        padding: 0;
+        margin: 0;
+    }
+    button{
+        width: 70vw;
+    }
+  }

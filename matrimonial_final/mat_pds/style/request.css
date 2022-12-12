@@ -1,0 +1,30 @@
+.post-main{
+    border-top:#F14F7B 10px solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.request{
+    border:solid 2px #F14F7B ;
+}
+.heading{
+    border-bottom: solid 2px grey;
+}
+.heading a{
+    text-decoration: none;
+    color:black;
+    justify-content: space-between;
+    
+}
+
+.pending:hover,.accepted:hover,.replied:hover,.declined:hover{
+    
+    color:#F14F7B;
+}
+.row{
+    background-color: grey;
+    width:100%;
+    border-radius:20px;
+    align-items: center;
+}
+

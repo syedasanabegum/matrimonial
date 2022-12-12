@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="../style/agent.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <a href="../html/index.html"><i class="fa fa-long-arrow-left" style="font-size: 30px;" aria-hidden="true"></i></a>
+        
+    <header> <img src="../img/agent.png" width="80px" height="80px"></header>
+    <p>Provide your active email ID & phone no. for your customers to get in touch with you</p>
+
+    <form action="#">
+        <label class="label">Name</label>
+        <input type="text" placeholder="Enter your name here">
+
+        <label class="label">Email ID</label>
+        <input type="mail" placeholder="manoj91@gmail.com">
+
+        <div class="line">
+            <div>
+                <label class="label">Age</label>
+                <input type="number" class="age">
+            </div>
+
+            <div>
+                <label class="label">Gender</label><br>
+                <div>
+                    <input type="radio" name="gender" id="male" value="Male">
+                    <label for="male" class="opt">Male</label>
+                    <br>
+                    <input type="radio" name="gender" id="female" value="Female">
+                    <label for="female" class="opt">Female</label>
+                </div>
+            </div>
+        </div>
+
+        <label class="label">Religion</label>
+        <input type="text">
+        <label class="label">Community</label>
+        <input type="text">
+
+        <div class="line">
+            <div class="options">
+                <label class="label short" for="exp">Experience</label>
+                <div class="select">
+                    <select name="exp" id="exp">
+                        <div>
+                            <option value="No Experience">0-1 years</option>
+                            <option value="1+ years">1+ years</option>
+                            <option value="2+ years">2+ years</option>
+                            <option value="5+ years">5+ years</option>
+                            <option value="10+ years">10+ years</option>
+                        </div>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <label class="label short">Succesful Connections</label>
+                <input class="connections" type="number">
+            </div>
+        </div>
+
+        <label class="label">Mobile no.</label>
+        <div class="phno">
+            <input class="box" type="number" placeholder=" +91">
+            <input type="number" id="phone" placeholder="9432479812">
+        </div>
+
+        <label class="label" id="address">Address</label>
+        <textarea id="address" cols="42.5" rows="5"></textarea>
+    </form>
+
+    <button><a style="border:none ;color:#FFF; text-decoration: none ; margin-bottom:0px;"; href="../html/agentcontact.html">Submit</a></button>
+
+    <footer>By creating account, you agree to your <span>Privacy Policy</span> and <span>T&C.</span></footer>
+
+    
+</body>
+</html>

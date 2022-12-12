@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .main{
+    padding-top: 3px;
+  }  
+  div{
+    justify-content: space-around;
+    margin: 0 1px;
+  }
+  .main img{
+    height: 42vh;
+    width: 100%;
+  }
+  .img1{
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+  }
+  .img2{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .img3{
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+  }
+  .img4{
+    border-top-left-radius:20px;
+    border-bottom-left-radius: 20px;
+  }
+  .second{
+    transform: translateY(-1%);
+  }
+.first,.second{
+    display: flex;
+    justify-content: space-between;
+}
+.first div:first-child, .second div:last-child{
+    width: 40%;
+}
+.first div:last-child, .second div:first-child{
+    width: 60%;
+}
+.over{
+    position: absolute;
+    bottom: 20%;
+    left:10%;
+    width: 80vw;
+    text-align: center;
+}
+.over p{
+    color: white;
+    font-size: 20px;
+}
+.over .btn{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.btn button{
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 35px;
+    border: none;
+    letter-spacing: 0.5px;
+}
+.btn button:first-of-type{
+    color: white;
+    background-color: #F14F7B;
+    opacity: .9;
+    margin-bottom: 10px;
+}
+.btn button:last-of-type{
+    color: #000;
+    background-color: white;
+}
+button i{
+    padding: 5px 10px;
+}
+.over img{
+    transform: translateY(22%);
+    margin-right: 5px;
+}
+footer{
+    background: #F14F7B;
+    color: white;
+    height: 15vh;
+    width: 100vw;
+    padding: 30px 15px;
+    font-size: 14px;
+    text-align: center;
+    transform: translateY(-6%);
+}
+footer button{
+    border: 1px solid white;
+    background-color: #F14F7B;
+    color: white;
+    border-radius: 35px;
+    padding: 5px;
+    width: 80px;
+    margin: 10px;
+}
